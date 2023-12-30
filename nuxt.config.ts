@@ -4,7 +4,7 @@ export default defineNuxtConfig({
 
   modules: ["@nuxtjs/tailwindcss", "@nuxtjs/google-fonts", "nuxt-icon"],
 
-  components: ["~/components/reusables"],
+  components: ["~/components/reusables", "~/components/"],
 
   googleFonts: {
     families: {
